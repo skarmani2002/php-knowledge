@@ -1,0 +1,6 @@
+What is the difference between == and === in php?
+
+The difference between the loosely == equal operator and the strict === identical operator is exactly explained in the manual:
+$a == $b	Equal	TRUE if $a is equal to $b after type juggling.
+$a === $b	Identical	TRUE if $a is equal to $b, and they are of the same type.
+
